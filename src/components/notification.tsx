@@ -38,7 +38,9 @@ export function Notification({
           {/* detils */}
           <div className="flex w-full  justify-between gap-2 ">
             <div ref={animationParent} className="mb-2   space-x-2 ">
-              <span className="font-bold whitespace-nowrap">{user}</span>
+              <span className="font-bold whitespace-nowrap hover:text-[hsl(219,85%,26%)] cursor-pointer">
+                {user}
+              </span>
               <span style={{ color: colors.neutral.darkGrayishBlue }}>
                 {action}
               </span>
